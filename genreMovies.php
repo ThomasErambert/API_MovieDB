@@ -20,7 +20,7 @@ if ( isset($_GET['id']) AND !empty($_GET['id'])){
               <p class=" lh-sm">
                 <strong><?php echo $movie['title']; ?></strong>
               </p>
-             <button type="button" class="btn btn-primary mt-auto">View</button>
+             <a href="view.php"><button type="button" class="btn btn-primary mt-auto">View</button></a>
             </div>
           </div>
         </div>
